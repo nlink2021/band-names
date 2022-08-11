@@ -1,3 +1,7 @@
-print("Day 1 - Python Print Function")
-print("The function is declared like this:")
-print("print('what to print')")
+# Band Name Generator
+print("Welcome to the Band Name Generator")
+
+cityName = input("What's name of the city you grew up in? \n")
+petName = input("What's your pet's name? \n")
+
+print("Your band name could be " + cityName + " " + petName)
